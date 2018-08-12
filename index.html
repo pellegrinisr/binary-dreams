@@ -12,8 +12,9 @@
 
 </head>
     <header>
-        <nav class="myNav navbar navbar-expand-lg navbar-dark bg-dark">
-            <a href="#" class="navbar-brand">Binary Dreams</a>
+        <div id="top-of-page"></div>
+        <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-secondary fixed-top">
+            <a href="#top-of-page" class="navbar-brand">Binary Dreams</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsedNavbar" aria-controls="collapsedNavbar" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,10 +27,10 @@
                         <a class="nav-link" href="#team">Our Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Therapist Directory</a>
+                        <a class="nav-link" href="#directory">Therapist Directory</a>
                     </li>
                 </ul>
                 <span class="navbar-text">
@@ -114,10 +115,10 @@
             </div>
         </div>
         <div class="row grey-area-row">
-            <div class="col-sm-12 grey-area"></div>
+            <div id="technology" class="col-sm-12 grey-area"></div>
         </div>
         <div class="container">
-            <h1 id="technology">Technology</h1>
+            <h1>Technology</h1>
             <div class="row">
                 <div class="col-lg-2 left-margin"></div>
                 <div class="col-sm-12 col-lg-8">
@@ -138,20 +139,15 @@
                             <p>We created MobiBall using the Unity game engine, a professional-grade tool that provides the finest end user experience available.</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <a href="#myCarousel">Back to Top</a>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="col-lg-2 right-margin"></div>
         </div>
         <div class="row grey-area-row">
-            <div class="col-sm-12 grey-area"></div>
+            <div id="team" class="col-sm-12 grey-area"></div>
         </div>
         <div class="container">
-            <h1 id="team">Our Team</h1>
+            <h1>Our Team</h1>
             <div class="row">
                 <div class="col-lg-2 left-margin"></div>
                 <div class="col-sm-12 col-lg-8">
@@ -167,22 +163,18 @@
                             <p>Partner, Co-Founder</p>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <a href="#myCarousel">Back to Top</a>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-lg-2 right-margin"></div>
             </div>
         </div>
         <div class="row grey-area-row">
-            <div class="col-sm-12 grey-area"></div>
+            <div id="contact" class="col-sm-12 grey-area"></div>
         </div>
         <div class="container">
-            <h1 id="contact">Contact Us</h1>
+            <h1>Contact Us</h1>
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-lg-2 left-margin"></div>
+                <div class="col-lg-8 col-sm-12">
                     <form>
                         <div class="form-group">
                             <label for="first-name">First Name</label>
@@ -200,10 +192,30 @@
                             <label for="message">Message</label>
                             <textarea class="form-control" id="message" rows="10"></textarea>
                         </div>
+                        <button id="submit" class="btn btn-secondary" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
+        <div class="row grey-area-row">
+            <div id="directory" class="col-sm-12 grey-area"></div>
+        </div>
+        <div class="container">
+            <h1>Therapist Directory</h1>
+            <div class="row">
+                <div class="col-lg-2 left-margin"></div>
+                <div class="col-sm-12 col-lg-8">
+                    <h4>Coming Soon</h4>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+  
     </main> 
+    <footer class="footer bg-secondary">
+        <div class="container">
+            <span class="text-light">Binary Dreams 2018</span>
+        </div>
+    </footer>
 </body>
 </html>
