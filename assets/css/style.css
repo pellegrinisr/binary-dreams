@@ -1,0 +1,14 @@
+.navbar-text {
+    color: rgba(255,255,255,.5)
+}
+.grey-area-row {
+    height: 10rem;
+    width: 100%;
+    margin: 0;
+}
+.grey-area {
+    background-color: #343a40;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
