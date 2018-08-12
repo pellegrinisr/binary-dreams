@@ -11,9 +11,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script>
 
 </head>
-<body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="myNav navbar navbar-expand-lg navbar-dark bg-dark">
             <a href="#" class="navbar-brand">Binary Dreams</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsedNavbar" aria-controls="collapsedNavbar" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,10 +20,10 @@
             <div class="collapse navbar-collapse" id="collapsedNavbar">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Technology</a>
+                        <a class="nav-link" href="#technology">Technology</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Team</a>
+                        <a class="nav-link" href="#team">Our Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -35,7 +34,7 @@
                 </ul>
                 <span class="navbar-text">
                     Making the World A Better Place, One Bit at a Time  
-                </span
+                </span>
             </div>
         </nav>
     </header>
@@ -53,7 +52,7 @@
                         <div class="carousel-caption">
                             <h1>Imagine</h1>
                             <p>The possibility of a more accessible world.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#technology" role="button">Learn More</a></p>
+                            <!-- <p><a class="btn btn-lg btn-primary" href="#technology" role="button">Learn More</a></p> -->
                         </div>
                     </div>
                 </div>
@@ -61,19 +60,20 @@
                     <img class="second-slide" src="assets/images/placeholder_black.gif" alt="Second Slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Example headline.</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+                            <h1>MobiBall</h1>
+                            <p>Fun and exciting mobility training.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#technology" role="button">Learn More</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="third-slide" src="assets/images/placeholder_black.gif" alt="Third Slide">
                     <div class="container">
-                        <div class="carousel-caption text-right">
-                            <h1>Example headline</h1>
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+                        <div class="carousel-caption">
+                            <h1>Find a Therapist</h1>
+                            <p>View our directory of therapists to find top-tier care providers in the area.</p>
+                            <!-- set href to therapist directory -->
+                            <p><a class="btn btn-lg btn-primary" href="#" role="button">Go</a></p>
                         </div>
                     </div>
                 </div>
@@ -121,27 +121,88 @@
             <div class="row">
                 <div class="col-lg-2 left-margin"></div>
                 <div class="col-sm-12 col-lg-8">
-                    <!-- Three columns of text below the carousel -->
                     <div class="row">
                         <div class="col-lg-4">
-                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                            <h2>Heading</h2>
-                            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                        </div><!-- /.col-lg-4 -->
+                            <img class="rounded-circle hand" src="assets/images/hand.jpg" alt="Generic placeholder image" width="140" height="140">
+                            <h2>Superior Mobility</h2>
+                            <p>Use our MobiBall application to enhance the fine motor skills of the wrist and hand.</p>
+                        </div>
                         <div class="col-lg-4">
-                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                            <h2>Heading</h2>
-                            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                        </div><!-- /.col-lg-4 -->
+                            <img class="rounded-circle" src="assets/images/cross_platform.png" alt="Generic placeholder image" width="140" height="140">
+                            <h2>Cross-Platform</h2>
+                            <p>Available for iOS and Android, so everyone can use it.</p>
+                        </div>
                         <div class="col-lg-4">
-                            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                            <h2>Heading</h2>
-                            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        </div><!-- /.col-lg-4 -->
-                    </div><!-- /.row -->
+                            <img class="rounded-circle" src="assets/images/unityLogo.png" alt="Generic placeholder image" width="140" height="140">
+                            <h2>Built with Unity</h2>
+                            <p>We created MobiBall using the Unity game engine, a professional-grade tool that provides the finest end user experience available.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="#myCarousel">Back to Top</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-2 right-margin"></div>
+        </div>
+        <div class="row grey-area-row">
+            <div class="col-sm-12 grey-area"></div>
+        </div>
+        <div class="container">
+            <h1 id="team">Our Team</h1>
+            <div class="row">
+                <div class="col-lg-2 left-margin"></div>
+                <div class="col-sm-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h3>Serge Gukasov</h3>
+                            <p>Partner, Co-Founder, Lead Developer</p>
+                            <h3>Sean Kao</h3>
+                            <p>Partner, Co-Founder</p>
+                            <h3>Stephen Pellegrini</h3>
+                            <p>Partner, Co-Founder, Software Developer</p>
+                            <h3>Mauricio Zelaya</h3>
+                            <p>Partner, Co-Founder</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <a href="#myCarousel">Back to Top</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 right-margin"></div>
+            </div>
+        </div>
+        <div class="row grey-area-row">
+            <div class="col-sm-12 grey-area"></div>
+        </div>
+        <div class="container">
+            <h1 id="contact">Contact Us</h1>
+            <div class="row">
+                <div class="col-sm-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" class="form-control" id="last-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="10"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </main> 
 </body>
